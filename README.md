@@ -42,9 +42,9 @@ v1.0 : 14/08/2020
 
 ## Approche
 
-1) création du html de basiques  
-2) stylisation de la page
-3) script de la to-do
+1) création du html de base
+2) script de la to-do
+3) stylisation de la page
 4) responsive design
 
 ## Credits

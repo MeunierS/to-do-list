@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="Excercice bootstrap">
+    <meta name="description" content="Excercice to-do list">
     <meta name="keywords" content="HTML, CSS, JS, Framework Bootstrap CDN">
     <meta name="author" content="Sébastien Meunier">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style.css">
     <title>To-Do List</title>
 </head>
+
 <body>
+    <header>
+        <h1>TO DO LIST</h1>
+        <button onclick="Toggle()">Toggle dark mode</button>
+    </header>
+    <section>
+        <input type="text" id="myInput" placeholder="Task to do">
+        <button class="button" id="send">
+            Add
+        </button>
+    </section>
+    <section>
+        <ul id="target"></ul>
+    </section>
+    <footer>
+        <a href="mailto:meuniersebastien1987@gmail.com">Send an Email to the admin</a>
+    </footer>
     <!-- Script -->
     <script src="assets/script.js"></script>
 </body>
+
 </html>
